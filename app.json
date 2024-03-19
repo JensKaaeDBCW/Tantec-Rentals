@@ -1,0 +1,34 @@
+{
+  "id": "140ac75f-2398-46bc-8c98-d21b084d52b7",
+  "name": "Tantec Rentals",
+  "publisher": "BC World",
+  "brief": "Tantec Rental Charge Customizations",
+  "description": "This app handles rentals charges for Tantec A/S",
+  "version": "1.0.0.3",
+  "runtime": "10.0",
+  "target": "Cloud",
+  "application": "19.0.0.0",
+  "platform": "23.0.0.0",
+    "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": true
+  },
+  
+  "dependencies": [
+    {
+      "id": "dd2a82de-0b01-4a0d-b47c-fc9343402913",
+      "name": "Tantec Core",
+      "version": "22.0.1.19",
+      "publisher": "BC World"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "features": ["TranslationFile"]
+}

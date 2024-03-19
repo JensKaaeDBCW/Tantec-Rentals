@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [        
+        // Use Ctrl+Space to trigger IntelliSense and get assistance on the supported configurations for AL development.
+        {
+            "name": "Sandbox_20240206",            
+            "request": "launch",
+            "type": "al",
+            "tenant": "ed480149-3f88-48a1-b54b-0c83e70639cf",         
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox_20240214",
+            "startupCompany": "Tantec A/S",
+            "startupObjectType": "Page",
+            "startupObjectId": 89,            
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "forceUpgrade": true
+        }       
+    ]
+}
